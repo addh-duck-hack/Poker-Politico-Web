@@ -1,0 +1,413 @@
+.Note1{
+    width: 100%;
+    height: 300px;
+    margin: 20px;
+    border-bottom: 2px solid green;
+    padding-bottom: 5%;
+}
+.HeadNote1Arrow{
+    border-bottom: green;
+    width: 100%;
+    height: 100%;
+}
+.HeadNote1Arrow>a>h1{
+    font-size: 1.3em;
+    border-bottom: solid 2px green;
+    color: black;
+}
+.HeadNote1{
+    width: 100%;
+    height: 15%;
+}
+.BodyHead1{
+    width: 100%;
+    height: 85%;
+}
+.ImgNote1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.TitleNoteIn1{
+    position: absolute;
+    bottom: 10px;
+    left: 5%;
+    width: 90%;
+    background: rgba(0,0,0,0.6);
+    padding: 10px;
+    border-radius: 10px;
+}
+.TitleNoteIn1>h1{
+    font-size: 1.5em;
+}
+.TitleNoteIn1>h2>a{
+    color: lightgray;
+    text-decoration: underline;
+}
+.TitleNoteIn1>h2{
+    font-size: 0.7em;
+    color: white;
+    text-align: justify;
+}
+.Nota4{
+    width: 100%;
+    /* display: flex; */
+    height: 12em;
+}
+.InNota4{
+    width: 95%;
+    height: 95%;
+    /* display: flex; */
+    margin: auto;
+    margin-top: 2%;
+}
+.ImgNota4{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid indianred;
+}
+.Nota4R{
+    height: 100%;
+    width: 75%;
+    float: left;
+}
+.Nota4L{
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+.Nota4RH{
+    width: 100%;
+    height: 20%;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(111 111 111);
+}
+.Nota4RH>a>h1{
+    font-size:1.2em;
+    color: #37302a;
+    text-decoration: underline;
+}
+.Nota4RF{
+    width: 100%;
+    height: 10%;
+    font-size: .8em;
+    color: blue;
+    font-weight: bold;
+}
+.Nota4RB{
+    text-align: justify;
+    width: 100%;
+    height: 55%;
+    font-size: 1em;
+}
+.Nota4RL{
+    width: 100%;
+    height: 15%;
+    border-bottom: solid 3px indianred;
+}
+.Nota4RLL{
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+.Nota4RLR{
+    height: 100%;
+    width: 20%;
+    float: right;
+    align-items: center;
+	display: none;
+}
+.btnSegu{
+    width: 40%;
+    height: 90%;
+    margin: 0px auto;
+    background-color: indianred;
+    text-align: center;
+    color: white;
+    border-radius: 2px;
+    font-size: .60em;
+}
+.MiniAutor{
+    width: 100%;
+    height: 100%;
+}
+.ImgAutorC{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.ImgAutor{height: 55px;width: 52px;border-radius: 180px;float: left;background-size: contain !important;margin: auto;}
+.ExtractoAutor{
+    width: 100%;
+    height: 33%;
+    font-size: .5em;
+    text-align: center;
+}
+.AutorText{
+    width: 100%;
+    height: 10%;
+    font-size: .5em;
+    text-align: center;
+    color: #000058;
+}
+.ExtractoTitulo2>a{
+    color: gray;
+    text-decoration: underline;
+}
+.nota8{
+    border: 3px solid indianred;
+    padding-top: 10px;
+    margin-top: 8% !important;
+}
+.nota8 .col-4{
+    margin-bottom: 0.5em;
+}
+.nota8>h1{
+    font-size: 1.8em;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5em;
+    font-family: monospace;
+}
+.background-red{
+    background-color: indianred;
+}
+.footer-section1, .footer-section2{
+    padding: 3em;
+    color: white;
+    font-family: monospace;
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+.footer-section2{
+    text-align: center;
+}
+
+.footer-section2>p>a{
+    color: whitesmoke;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+.rowN10{
+    width:100%;
+    height:450px;
+    display:flex;
+}
+.COntTwitter{
+    width:100%;
+    height:100%;
+    overflow: auto;
+    border-top: 3px solid indianred;
+}
+.xRowCol{
+    width: 100%;
+    height: 90%;
+    margin-top: 5%!important;
+}
+.HeadRow10{
+    height:10%;
+    width:100%;
+}
+.textCenter{
+    text-align: center;
+    border-bottom: 3px solid indianred;
+    font-family: serif;
+    font-size: 2em;
+}
+.ContPic10{
+    width:100%;
+    height: 50%;
+}
+.HTextNot10{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.TextNot10{
+    width: 100%;
+    height: 20%;
+    margin: auto;
+}
+.FTextNot10{
+    width: 100%;
+    height: 15%;
+    margin: auto;
+}
+.imgNote10{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.xROwCol7{
+    width: 58.33%;
+    float: left;
+    height: 100%;
+}
+.HTextNot10>h1{
+    color: black;
+    font-size: 1.2em;
+    text-align: justify;
+}
+.TextNot10>h2{
+    font-size: 0.8em;
+    text-align: justify;
+}
+.FTextNot10 .TextL{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.FTextNot10 .TextR{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.TextL .ImgAutor{
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+.TextL .AutorText{
+    color: #001c48;
+    height: auto;
+    width: calc( 100% - 40px);
+    float: left;
+    font-size: .8em;
+    padding-top: 2%;
+    text-align: left;
+}
+.TextR>h3{
+    font-size: .8em;
+    color: #ff0000;
+    padding-top: 2%;
+    text-align: right;
+}
+.xROwCol5{
+    width: 41.66%;
+    height: 25%;
+    float: left;
+    padding-left: 2%;
+}
+.HTextNot510H{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    /* margin-left: 2%; */
+    align-items: center;
+}
+.HTextNot510HT{
+    width: 70%;
+    height: 100%;
+    align-items: center;
+    float: left;
+    display: flex;
+}
+.HTextNot510HT>h1{
+    font-size: 1em;
+}
+.HTextNot510HI{
+    width: 30%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.imgNote510{
+    width: 100%;
+    height: 100%;
+}
+.HTextNot510F{
+    width: 100%;
+    height: 20%;
+    /* margin-left: 4%; */
+}
+.HTextNot510F>h3{
+    font-size: .8em;
+}
+.contenido-titulo{
+    color: #333333;
+    margin: 0 auto;
+    font: italic bold 2em Georgia, Serif;
+    text-shadow: -5px 3px 0px #BBBBBB;
+}
+@media only screen and (max-width: 600px) {
+    .rowN10{
+    width: 100%;
+    height: 1100px;
+    display: block;
+}
+    .rowN10 .col-9{
+    width: 100%;
+    height: auto;
+    flex: none;
+    max-width: 100%;
+}
+.Nota4RH>a>h1 {
+	font-size: 1.1em;
+}
+h1.contenido-titulo.text-center{
+	font-size: 1.8em;
+}
+.InNota4 {
+	width: 95%;
+    height: 95%;
+}
+.Nota4 {
+    width: 100%;
+    height: 24em;
+}
+.Nota4L {
+	height: 50%;
+    width: 100%;
+}
+.Nota4R {
+	height: 50%;
+    width: 100%;
+}
+.Nota4RH {
+	width: 100%;
+    height: 20%;
+    font-size: 1.1em;
+}
+.Nota4RF {
+	width: 100%;
+    height: 10%;
+    font-size: .9em;
+}
+.Nota4RB {
+	width: 100%;
+    height: 55%;
+    font-size: 1.1em;
+}
+    .rowN10 .col-3{
+        flex: none;
+        width: 100%;
+        max-width: 100%;
+        height: 380px;
+    }
+    .HeadRow10{
+        width: 100%;
+        height: 40px;
+        margin-top: 5%;
+    }
+    .xRowCol{
+        width: 100%;
+        height: auto;
+    }
+    .xROwCol7{
+        width: 100%;
+        height: 400px;
+    }
+    .xROwCol5{
+        width: 100%;
+        height: 90px;
+        margin: auto;
+    }
+}

@@ -1,0 +1,12 @@
+<?php query_posts('category_name=capturas')?><!--Para elegir categoria en slider-->
+<?php $i = 1; if ( have_posts() ) : while ( have_posts() && $i < 4) : the_post(); ?>
+<!--Codigo que se ejecutara cuando encuentre algun post-->
+<?php $i++; endwhile; else: ?>
+<!--Codigo que se ejecutara si no encuentra post-->
+<h1>Error 404 no se encontraron portadas.</h1>
+<?php endif; ?>
+<?php wp_reset_query();?>
+
+<?php $extracto = get_the_content() ;
+$extracto = strip_tags($extracto);
+echo substr($extracto, 0, 150); ?>
